@@ -29,7 +29,7 @@
   font-size: 56px;
   color: #c4c7c5;
   font-weight: 500;
-  padding: 15px;
+  
 }
 
 .main .greet span {
@@ -43,6 +43,8 @@
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 15px;
   padding: 20px;
+  padding-bottom: 20px;
+  
 }
 
 .main .card {
@@ -52,6 +54,7 @@
   border-radius: 10px;
   position: relative;
   cursor: pointer;
+  margin-bottom: 6px;
 }
 
 .main .card img {
@@ -117,4 +120,7 @@
     margin: 15px auto;
     text-align: center;
     font-weight: 300;
+}
+.main .greet .title{
+  padding-top: -15px;
 }
